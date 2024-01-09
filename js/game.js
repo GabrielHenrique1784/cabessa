@@ -29,7 +29,7 @@ const checkEndGame = () => {
 
   if (disabledCards.length === 20) {
     clearInterval(this.loop);
-    alert(`Parabéns, ${spanPlayer.innerHTML}! Seu tempo foi de: ${timer.innerHTML}`);
+    alert(`Boa blud! Terminou em: ${timer.innerHTML} aperta F5 pra jogar de novo`);
   }
 }
 
